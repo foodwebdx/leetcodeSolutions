@@ -12,4 +12,4 @@ def twoSums(nums,target):
 
         return [] 
 
-print(twoSums([1,1,1,1,1,1,1,1,2,3,424,23,4,100,10,100],200))
+print(twoSums([3,0,0,0,0,3],6))
