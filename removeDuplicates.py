@@ -4,6 +4,6 @@ def removeDuplicates(nums):
         if nums[i]!= nums[i-1]:
             nums[lP] = nums[i]
             lP += 1
-    return lP
+    return nums[:lP]
 
-print(removeDuplicates([1,1,2]))
+print(removeDuplicates([0,0,1,1,1,2,2,3,3,4]))
